@@ -13,7 +13,7 @@
 .button.primary-button {
     background-clip: padding-box;
     box-shadow: var(--box-shadow);
-    background-color: rgb(18, 38, 66);
+    background-color: #335eea;
     color: white;
 }
 
@@ -33,7 +33,10 @@
     background-clip: padding-box;
     border: 2px solid white;
     color: white;
-    background-color: rgb(18, 38, 66);
+    background-color: #335eea;;
     box-shadow: var(--box-shadow);
 }
 
+.text-muted {
+    color: #869ab8!important;
+}

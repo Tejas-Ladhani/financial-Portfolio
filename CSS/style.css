@@ -10,17 +10,115 @@
     padding: 0 1rem 0 4rem;
 }
 
-.navbar {
-    padding: 0.5rem;
+
+.header_area .main_menu .navbar {
+    padding-right: 10rem;
+    padding-left: 5rem;
 }
 
-.nav-item .nav-link {
-    font-family: var(--roboto);
+.header_area .main_menu .nav-item .nav-link {
+    /* font-family: var(--roboto); */
     /* text-transform: uppercase; */
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-top: 10px;
     font-weight: 600;
-  
+    color: var(--title-color);
+    font-size: large;
 }
 
+.header_area .main_menu .navbar-nav a.active {
+    color: #335eea;
+}
 
+.header_area .main_menu .navbar-nav a:hover {
+    color: #335eea;
+}
+.nav-button{
+    background-clip: padding-box;
+    padding: 10px;
+    background-color:#335eea;
+    text-decoration: none;
+    color: white;
+    border: none;
+    display: inline-block;
+    font-weight: 600;
+    text-align: center;
+    vertical-align: middle;
+    border-radius: 4px;
+    
+}
+.nav-button:hover{
+    box-shadow: var(--box-shadow);
+    letter-spacing: 1.5px;
+    transition: 0.4s;
+}
 
 /* Banner Area */
+
+.site-main .site-banner .site-title h3 {
+    padding-top: 35%;
+    font-weight: 500;
+}
+
+.site-main .site-banner .site-title h3::after {
+    content: " ";
+    height: 2px;
+    width: 18vw;
+    background: black;
+    display: inline-block;
+    margin-left: 5%;
+    transform: translateY(-10px);
+}
+
+.site-main .site-banner .site-title h1 {
+    font-size: 5rem;
+}
+
+.site-main .site-banner .site-title h4 {
+    font-size: 1.5rem;
+}
+
+.site-main .site-banner .banner-image>img {
+    padding: 7rem 0;
+    width: 90rem;
+}
+
+
+/* Button style is in global css */
+
+
+/* End Banner Area */
+
+
+/* start ABout Area */
+
+.site-main .about-area .about-title h2>span {
+    display: block;
+    font: normal bold 44px/ 50px var(--roboto);
+    letter-spacing: 15px;
+}
+
+.btn-info {
+    background-color: white;
+}
+
+.btn-info:hover {
+    text-decoration: none;
+    color: white;
+    background-color: rgb(18, 38, 66);
+    border: 2px solid transparent;
+}
+.icon>svg {
+    width: 3rem;
+    height: 3rem;
+}
+svg {
+    overflow: hidden;
+    vertical-align: middle;
+}
+p {
+    margin-top: 0;
+    margin-bottom: 1rem;
+    padding-bottom: 20px;
+}
