@@ -1,0 +1,26 @@
+/* importing fonts from  */
+
+@import url(./partials/variables.css);
+@import url(./fonts.css);
+
+/* import global styling */
+
+@import url(./partials/_global.css);
+.header_area .main_menu .navbar .navbar-brand {
+    padding: 0 1rem 0 4rem;
+}
+
+.navbar {
+    padding: 0.5rem;
+}
+
+.nav-item .nav-link {
+    font-family: var(--roboto);
+    /* text-transform: uppercase; */
+    font-weight: 600;
+  
+}
+
+
+
+/* Banner Area */
