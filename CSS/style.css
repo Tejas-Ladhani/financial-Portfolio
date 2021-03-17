@@ -8,6 +8,9 @@
 @import url(./partials/_global.css);
 .header_area .main_menu .navbar .navbar-brand {
     padding: 0 1rem 0 4rem;
+    font-weight: bolder;
+    color: #335eea;
+    
 }
 
 
@@ -23,7 +26,8 @@
     padding-right: 25px;
     padding-top: 10px;
     font-weight: 600;
-    color: var(--title-color);
+    color:azure;
+    /* color: var(--title-color); */
     font-size: large;
 }
 
@@ -121,4 +125,40 @@ p {
     margin-top: 0;
     margin-bottom: 1rem;
     padding-bottom: 20px;
+}
+.img-skewed-left {
+    -webkit-perspective-origin: left center;
+    perspective-origin: left center;
+}
+.img-skewed {
+    -webkit-perspective: 1500px;
+    perspective: 1500px;
+    -webkit-transform-style: preserve-3d;
+    transform-style: preserve-3d;
+}
+.img-skewed-left .img-skewed-item {
+    -webkit-transform: rotateY(
+-35deg
+) rotateX(
+15deg
+);
+    transform: rotateY(
+-35deg
+) rotateX(
+15deg
+);
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+}
+.screenshot {
+    border-radius: .625rem;
+    box-shadow: 25px 60px 125px -25px rgb(80 102 144 / 10%), 16px 40px 75px -40px rgb(0 0 0 / 20%);
+}
+.img-fluid {
+    max-width: 100%;
+    height: auto;
+}
+img {
+    vertical-align: middle;
+    border-style: none;
 }
